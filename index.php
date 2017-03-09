@@ -1,7 +1,7 @@
 <html>
   <body>
 <?php
-    echo 'Hello World from Heroku!';
+    echo 'Hello World!';
 ?>
   </body>
 </html>
