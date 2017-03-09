@@ -17,15 +17,13 @@ Webセミナー内で使用したサンプルプログラムを公開してい�
 ### 前提条件
 
 1. `git` コマンドが利用可能なこと
-2. Composer が利用可能なこと (推奨)
-3. Laravel などphp用のフレームワークが利用可能な環境であること (推奨)
-4. Heroku アカウントを有しており、かつ [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)が導入され、利用可能なこと
+2. Heroku アカウントを有しており、かつ [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)が導入され、利用可能なこと
 
 ### 利用手順(CLIのケース)
 
 1. 事前に Heroku login を済ませておくこと
-2. `git clone https://github.com/tabesfdc/heroku_ruby_0124.git` を実行する
-3. `cd heroku_ruby_0124` により、カレントディレクトリを変更する
+2. `git clone https://github.com/tabesfdc/heroku_php_0309.git` を実行する
+3. `cd heroku_php_0309` により、カレントディレクトリを変更する
 4. `heroku login` にて、Heroku へログインを済ませる
 5. `heroku create` により、Heroku へ新たにアプリのデプロイ環境を作成する
 7. `git push heroku master` で、作成した Heroku へアプリケーションをデプロイ
